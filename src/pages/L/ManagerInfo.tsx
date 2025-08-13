@@ -28,9 +28,12 @@ const ManagerInfo = () => {
             </div>
           </div>
           <div className='self-stretch h-0 opacity-50 outline-1 outline-offset-[-0.25px] outline-neutral-200 my-2.5'></div>
-          <div className='flex flex-row items-center justify-between gap-[18px]'>
+          <div className='flex flex-row items-start justify-between gap-[18px]'>
             <p className='text-zinc-500 font-semibold'>당번</p>
-            <p className='text-base text-normal'>탕비실 청소 당번</p>
+            <div className='flex flex-col gap-3'>
+              <p className='text-base text-normal'>탕비실 청소 당번</p>
+              <p className='text-base text-normal'>탕비실 청소 당번</p>
+            </div>
           </div>
           {}
         </div>
